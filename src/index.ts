@@ -24,7 +24,7 @@ btn1.onclick = () => {
         cont1.innerText = ''
         cont1.append(input1)
         cont1.append(change2)
-        change1.onclick = () =>{
+        change2.onclick = () =>{
             cont1.innerText = input1.value
             cont1.append(change1)
             localStorage.setItem(`${person1.id}`, input1.value)
