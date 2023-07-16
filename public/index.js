@@ -55,6 +55,7 @@ for (let i = 0; i <= localStorage.length; i++) {
                 localStorage.setItem(`${i}`, input1.value);
             };
         };
+        //hi
         out1.append(cont2);
     }
 }
